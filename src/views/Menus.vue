@@ -3,9 +3,9 @@
         <div>
             <nav>
                 <ul>
-                    <li @click="clickMenu('/about')">About</li>
-                    <li @click="clickMenu('/cases')">Cases</li>
-                    <li @click="clickMenu('/contact')">Contact</li>
+                    <li @click="clickMenu('/about')" class="unselectable">About</li>
+                    <li @click="clickMenu('/cases')"  class="unselectable">Cases</li>
+                    <li @click="clickMenu('/contact')"  class="unselectable">Contact</li>
                 </ul>
             </nav>
         </div>
