@@ -154,9 +154,9 @@ export default {
 
 @keyframes aboutInAnim {
     0%   {width:0; height: 0; padding:0;}
-    25%  {width: 100%; height: 0; padding: 0}
+    25%  {width: 100vw; height: 0; padding: 0}
     50%  {width: 100%; height: 384px; padding: 0}
-    100% {padding: 20px;width: 100%;height: 384px;}
+    100% {padding: 20px;width: 100vw;height: 384px;}
 }
 
 .aboutOut{

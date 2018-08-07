@@ -218,7 +218,7 @@ body{
    border-top: 1px solid $color3;
    width: 0;
    position: relative;
-   height: 0;
+   height: auto;
    min-height: 0;
    padding:0px;
    text-align: center;
@@ -232,6 +232,7 @@ body{
 .about-child{
    height: auto;
    overflow: hidden;
+   width: 100%;
 }
 
 .avideo-contener{
