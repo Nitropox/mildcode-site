@@ -11,10 +11,10 @@
                     <div class="information" :class="{infoshow: indx == 0, infohide: indx != 0 }">
                         <p>This site is built with Vue, Vuex and Vue-Router :]</p>
                         <p>Design: <a href="http://mildcode.com">mildcode</a></p>
-                        <p class="center">
-                            <img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/>
-                            <img class="info-icon" src="../assets/img/icons/vue.png" alt="vue"/>
-                        </p>
+                        <div class="center">
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/></div>
+                             <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/vue.png" alt="vue"/></div>
+                        </div>
                         <div>
                             <a class="visit center" href="https://github.com/Nitropox/mildcode-site" target="_blank">Git it!</a>
                         </div> 
@@ -29,11 +29,11 @@
                     <div class="information" :class="{infoshow: indx == 1, infohide: indx != 1 }">
                         <p>Did I mention that I am also a music composer and sound designer?</p>
                         <p>Design: <a href="http://mildcode.com">mildcode</a></p>
-                        <p class="center">
-                            <img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/>
-                            <img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery">
-                            <img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/>
-                        </p>
+                        <div class="center">
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery"></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/></div>
+                        </div>
                         <div>
                             <a class="visit center" href="http://adamrosiak.com" target="_blank">enter</a>
                         </div> 
@@ -48,12 +48,12 @@
                     <div class="information" :class="{infoshow: indx == 2, infohide: indx != 2 }">
                         <p>Custom RWD Wordpress theme, crafted for needs of private detective bureau.</p>
                         <p>Design: <a href="mailto:piotr.weiss@gmail.com">Weiss</a></p>
-                        <p class="center">
-                            <img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/>
-                            <img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery">
-                            <img class="info-icon" src="../assets/img/icons/php.png" alt="php"/>
-                            <img class="info-icon" src="../assets/img/icons/wordpress-icon.png" alt="wordperess"/>
-                        </p>
+                        <div class="center">
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery"></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/php.png" alt="php"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/wordpress-icon.png" alt="wordperess"/></div>
+                        </div>
                         <div>
                             <a class="visit center" href="http://residial.pl" target="_blank">enter</a>
                         </div> 
@@ -68,10 +68,10 @@
                     <div class="information" :class="{infoshow: indx == 3, infohide: indx != 3 }">
                         <p>Pure html RWD static site built from scratch.</p>
                         <p>Design: <a href="mailto:piotr.weiss@gmail.com">Weiss</a></p>
-                        <p class="center">
-                            <img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/>
-                            <img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery">
-                        </p>
+                        <div class="center">
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery"></div>
+                        </div>
                         <div>
                             <a class="visit center" href="http://konecznyclinic.com" target="_blank">enter</a>
                         </div> 
@@ -86,11 +86,11 @@
                     <div class="information" :class="{infoshow: indx == 4, infohide: indx != 4 }">
                         <p>This is my father's site. He is a very skilled artisan.</p>
                         <p>Design: <a href="http://mildcode.com">mildcode</a></p>
-                        <p class="center">
-                            <img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/>
-                            <img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery">
-                            <img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/>
-                        </p>
+                        <div class="center">
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery"></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/></div>
+                        </div>
                         <div>
                             <a class="visit center" href="http://drykier.com" target="_blank">enter</a>
                         </div> 
@@ -105,12 +105,12 @@
                     <div class="information" :class="{infoshow: indx == 5, infohide: indx != 5 }">
                         <p>Accounting office RWD onepage site.</p>
                         <p>Design: <a href="mailto:piotr.weiss@gmail.com">Weiss</a></p>
-                        <p class="center">
-                            <img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/>
-                            <img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery">
-                            <img class="info-icon" src="../assets/img/icons/php.png" alt="php"/>
-                            <img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/>
-                        </p>
+                        <div class="center">
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery"></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/php.png" alt="php"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/></div>
+                        </div>
                         <div>
                             <a class="visit center" href="http://brkrakus.eu" target="_blank">enter</a>
                         </div> 
@@ -125,11 +125,11 @@
                     <div class="information" :class="{infoshow: indx == 6, infohide: indx != 6 }">
                         <p>Have you ever been to Kraina Lipecka?</p>
                         <p>Design: <a href="mailto:piotr.weiss@gmail.com">Weiss</a></p>
-                        <p class="center">
-                            <img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/>
-                            <img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery">
-                            <img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/>
-                        </p>
+                        <div class="center">
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery"></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/></div>
+                        </div>
                         <div>
                             <a class="visit center" href="http://mildcode.com/krainalipecka.pl" target="_blank">enter</a>
                         </div> 
@@ -144,12 +144,12 @@
                     <div class="information" :class="{infoshow: indx == 7, infohide: indx != 7 }">
                         <p>If you need a physpiteraphist this site is for you!</p>
                         <p>Design: <a href="mailto:piotr.weiss@gmail.com">Weiss</a></p>
-                        <p class="center">
-                           <img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/>
-                            <img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery">
-                            <img class="info-icon" src="../assets/img/icons/php.png" alt="php"/>
-                            <img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/>
-                        </p>
+                        <div class="center">
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery"></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/php.png" alt="php"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/></div>
+                        </div>
                         <div>
                             <a class="visit center" href="http://mildcode.com/fizjocoach.com" target="_blank">enter</a>
                         </div> 
@@ -164,11 +164,11 @@
                     <div class="information" :class="{infoshow: indx == 8, infohide: indx != 8 }">
                         <p>The deadline was set for tommorow. I did this site the very same day thx to bootstrap.</p>
                         <p>Design: <a href="https://platige.com">Platige Image</a></p>
-                        <p class="center">
-                            <img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/>
-                            <img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery">
-                            <img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/>
-                        </p>
+                        <div class="center">
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery"></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/></div>
+                        </div>
                         <div>
                             <a class="visit center" href="https://3dlivetheatre.com/" target="_blank">enter</a>
                         </div> 
@@ -279,8 +279,15 @@ export default {
 .information a{
     color:#66FCF1;
 }
+
+.icon-wrap{
+    width: 70px;
+    margin-bottom: 30px;
+}
  .info-icon{
-    width:70px !important;
+    display: block;
+    width: 70px !important;
+    height: auto;
     padding: 0 10px;
  }
 
