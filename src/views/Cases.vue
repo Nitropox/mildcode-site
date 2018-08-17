@@ -13,7 +13,7 @@
                         <p>Design: <a href="http://mildcode.com">mildcode</a></p>
                         <div class="center">
                             <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/></div>
-                             <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/vue.png" alt="vue"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/vue.png" alt="vue"/></div>
                         </div>
                         <div>
                             <a class="visit center" href="https://github.com/Nitropox/mildcode-site" target="_blank">Git it!</a>
@@ -23,16 +23,15 @@
             </slide>
             <slide :index="1">
                  <div class="single-site">
-                    <img class="pix" src="../assets/img/sites/sites-adamrosiak.png" alt="adam rosiak"/>
+                    <img class="pix" src="../assets/img/sites/sites-adamrosiak-new.png" alt="adam rosiak"/>
                 </div>
                 <figcaption>
                     <div class="information" :class="{infoshow: indx == 1, infohide: indx != 1 }">
                         <p>Did I mention that I am also a music composer and sound designer?</p>
-                        <p>Design: <a href="http://mildcode.com">mildcode</a></p>
+                        <p>Design: <a href="http://mildcode.com">mildcode</a>. Check it on: <a href="https://github.com/Nitropox/adamrosiak-vue" target="_blank">git</a></p>
                         <div class="center">
                             <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/></div>
-                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery"></div>
-                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/bootstrap.png" alt="bootstrap"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/vue.png" alt="jquery"></div>
                         </div>
                         <div>
                             <a class="visit center" href="http://adamrosiak.com" target="_blank">enter</a>
@@ -62,10 +61,30 @@
             </slide>
             <slide :index="3">
                 <div class="single-site">
-                   <img class="pix" src="../assets/img/sites/sites-koneczny.png" alt="koneczny"/>
+                   <img class="pix" src="../assets/img/sites/sites-stagehand.png" alt="stagehand"/>
                 </div>
                 <figcaption>
                     <div class="information" :class="{infoshow: indx == 3, infohide: indx != 3 }">
+                        <p>Custom RWD Wordpress theme, with Advanced Custom Fields and Custom Post Types UI</p>
+                        <p>Design: <a href="http://6clox.top">Stagehand Collective</a></p>
+                        <div class="center">
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/icon-three.png" alt="html5-css3-js"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/jq.png" alt="jquery"></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/php.png" alt="php"/></div>
+                            <div class="icon-wrap"><img class="info-icon" src="../assets/img/icons/wordpress-icon.png" alt="wordperess"/></div>
+                        </div>
+                        <div>
+                            <a class="visit center" href="http://6clox.top" target="_blank">enter</a>
+                        </div> 
+                    </div>
+                </figcaption>
+            </slide>
+            <slide :index="4">
+                <div class="single-site">
+                   <img class="pix" src="../assets/img/sites/sites-koneczny.png" alt="koneczny"/>
+                </div>
+                <figcaption>
+                    <div class="information" :class="{infoshow: indx == 4, infohide: indx != 4 }">
                         <p>Pure html RWD static site built from scratch.</p>
                         <p>Design: <a href="mailto:piotr.weiss@gmail.com">Weiss</a></p>
                         <div class="center">
@@ -78,12 +97,12 @@
                     </div>
                 </figcaption>
             </slide>
-            <slide :index="4">
+            <slide :index="5">
                  <div class="single-site">
                   <img class="pix" src="../assets/img/sites/sites-drykier.png" alt="drykier"/>
                 </div>
                 <figcaption>
-                    <div class="information" :class="{infoshow: indx == 4, infohide: indx != 4 }">
+                    <div class="information" :class="{infoshow: indx ==5, infohide: indx != 5 }">
                         <p>This is my father's site. He is a very skilled artisan.</p>
                         <p>Design: <a href="http://mildcode.com">mildcode</a></p>
                         <div class="center">
@@ -97,12 +116,12 @@
                     </div>
                 </figcaption> 
             </slide>
-            <slide :index="5">
+            <slide :index="6">
                  <div class="single-site">
                     <img class="pix" src="../assets/img/sites/sites-brkrakus.png" alt="brkrakus"/>
                 </div>
                 <figcaption>
-                    <div class="information" :class="{infoshow: indx == 5, infohide: indx != 5 }">
+                    <div class="information" :class="{infoshow: indx == 6, infohide: indx != 6 }">
                         <p>Accounting office RWD onepage site.</p>
                         <p>Design: <a href="mailto:piotr.weiss@gmail.com">Weiss</a></p>
                         <div class="center">
@@ -117,12 +136,12 @@
                     </div>
                 </figcaption>    
             </slide>
-            <slide :index="6">
+            <slide :index="7">
                 <div class="single-site">
                     <img class="pix" src="../assets/img/sites/sites-kraina.png" alt="kraina lipecka"/>
                 </div>
                 <figcaption>
-                    <div class="information" :class="{infoshow: indx == 6, infohide: indx != 6 }">
+                    <div class="information" :class="{infoshow: indx == 7, infohide: indx != 7 }">
                         <p>Have you ever been to Kraina Lipecka?</p>
                         <p>Design: <a href="mailto:piotr.weiss@gmail.com">Weiss</a></p>
                         <div class="center">
@@ -136,12 +155,12 @@
                     </div>
                 </figcaption>  
             </slide>
-            <slide :index="7">
+            <slide :index="8">
                  <div class="single-site">
                    <img class="pix" src="../assets/img/sites/sites-fizjocoach.png" alt="fizjocoach"/>
                 </div>
                 <figcaption>
-                    <div class="information" :class="{infoshow: indx == 7, infohide: indx != 7 }">
+                    <div class="information" :class="{infoshow: indx == 8, infohide: indx != 8 }">
                         <p>If you need a physpiteraphist this site is for you!</p>
                         <p>Design: <a href="mailto:piotr.weiss@gmail.com">Weiss</a></p>
                         <div class="center">
@@ -156,12 +175,12 @@
                     </div>
                 </figcaption> 
             </slide>
-            <slide :index="8">
+            <slide :index="9">
                   <div class="single-site">
                     <img class="pix" src="../assets/img/sites/sites-platige.png" alt="platige"/>
                 </div>
                 <figcaption>
-                    <div class="information" :class="{infoshow: indx == 8, infohide: indx != 8 }">
+                    <div class="information" :class="{infoshow: indx == 9, infohide: indx != 9 }">
                         <p>The deadline was set for tommorow. I did this site the very same day thx to bootstrap.</p>
                         <p>Design: <a href="https://platige.com">Platige Image</a></p>
                         <div class="center">
@@ -191,7 +210,7 @@ export default {
   },
   data(){
     return{
-        slides: 9,
+        slides: 10,
         indx: 0,   //needed to show figcaptions on current slide  
         windowHeight: 0,
         windowWidth: 0, 
